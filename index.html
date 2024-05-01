@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>ABC</title>
+</head>
+
+<body class="myBg">
+
+    <!-- nav bar section  -->
+    <div class="container-fluid myAltbg">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="/" class="d-inline-flex text-light link-body-emphasis text-decoration-none">
+                    A B C ~ <span class="text-danger">STORES</span>
+                    <!-- <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg> -->
+                </a>
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 myText">Home</a></li>
+                <!-- drop down should on product -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle myText" href="#" data-bs-toggle="dropdown"
+                        aria-expanded="false">Category</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./product.html">Perfume</a></li>
+                        <li><a class="dropdown-item" href="./product.html">Sun Glasses</a></li>
+                        <li><a class="dropdown-item" href="./product.html">Shoes</a></li>
+                        <li><a class="dropdown-item" href="./product.html">Shirts</a></li>
+                        <li><a class="dropdown-item" href="./product.html">Trousers</a></li>
+                        <li><a class="dropdown-item" href="./product.html">Wrist Watch</a></li>
+                    </ul>
+                </li>
+                <!-- <li><a href="#" class="nav-link myText px-2">Products</a></li> -->
+                <li><a href="./latest.html" class="nav-link myText px-2">Latest</a></li>
+                <li><a href="#about" class="nav-link myText px-2">About</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <a href="./login.html" type="button" class="btn myBg me-2">Login</a>
+                <a href="./signup.html" type="button" class="btn myBg">Sign-up</a>
+            </div>
+        </header>
+    </div>
+    <!-- End of nav bar  -->
+
+
+
+    <!-- The carousel Ad page -->
+    <div class="container-fluid myBg"><br>
+        <div class="row">
+            <div class="col">
+                <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active "
+                            style="background-image: url(./img/portfolio-3.jpg); height: 80vh;background-size: cover">
+
+                            <div class="container">
+                                <div class="carousel-caption text-start myText">
+                                    <h1>A B C Stores.</h1>
+                                    <p>Your number one shop retail Stores </p>
+                                    <p><a class="btn btn-lg myBg" href="./signup.html">Sign up today</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"
+                            style="background-image: url(./img/portfolio-1.jpg); height: 80vh;background-size: cover">
+                            <div class="container">
+                                <div class="carousel-caption text-start myText">
+                                    <h1>Shop at affordable prices</h1>
+                                    <p>Always at your service</p>
+                                    <p><a class="btn btn-lg myBg" href="#">Learn more</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"
+                            style="background-image: url(./img/portfolio-9.jpg); height: 80vh; background-size: cover;">
+                            <div class="container">
+                                <div class="carousel-caption text-start myText">
+                                    <h1> A B C Stores</h1>
+                                    <p>Always ready to give you the best</p>
+                                    <p><a class="btn btn-lg myBg" href="#">Browse gallery</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active "
+                            style="background-image: url(./img/portfolio-5.jpg); height: 80vh;background-size: cover">
+
+                            <div class="container">
+                                <div class="carousel-caption text-end myText">
+                                    <h1>A B C Stores.</h1>
+                                    <p>Your number one shop retail Stores </p>
+                                    <p><a class="btn btn-lg myBg" href="./login.html">Login</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"
+                            style="background-image: url(./img/portfolio-7.jpg); height: 80vh;background-size: cover">
+                            <div class="container">
+                                <div class="carousel-caption text-start myText">
+                                    <h1>Shop at affordable prices</h1>
+                                    <p>Always at your service</p>
+                                    <p><a class="btn btn-lg myBg" href="#">Learn more</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item"
+                            style="background-image: url(./img/portfolio-8.jpg); height: 80vh;background-size: cover">
+                            <div class="container">
+                                <div class="carousel-caption text-start myText">
+                                    <h1> A B C Stores</h1>
+                                    <p>Always ready to give you the best</p>
+                                    <p><a class="btn btn-lg myBg" href="#">Browse gallery</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div><br>
+    </div><br>
+    <!-- End of carousel Ad page -->
+
+    <!-- About section -->
+    <div id="about" class="container" >
+        <hr><br>
+        <div class="row myAltbg">
+            <div class="col"><br>
+                <h2 class="text-danger text-center">About us</h2>
+            </div>
+            <div class="col"> <br>
+                <article>
+                    <p>
+                        ABC Store Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur vitae
+                        voluptate suscipit reiciendis corrupti laudantium soluta saepe nemo veniam!
+                    </p>
+                    <p>
+                        We are Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia explicabo ullam corrupti
+                        dolor provident. Praesentium quisquam quod nam, neque sit animi perspiciatis possimus, odio
+                        fugiat accusantium consequuntur placeat reiciendis provident.
+                    </p>
+
+                </article>
+            </div>
+        </div>
+    </div><br>
+    <!-- End of About section -->
+
+    <!-- Contact section -->
+    <div class="container myAltbg">
+        <h3>Contact Us</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="" method="post">
+                    <div class="col-6">
+                        <label for="Name" class="form-label">Name <span class="text-muted">(Compulsory)</span></label>
+                        <input type="text" class="form-control" id="Name" placeholder="Andrew John">
+                    </div>
+                    <div class="col-6">
+                        <label for="Email" class="form-label">Email <span class="text-muted">(Compulsory)</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    </div>
+                    <div class="col-6">
+                        <label for="Phone number" class="form-label">Phone Number <span
+                                class="text-muted">(Optional)</span></label>
+                        <input type="text" class="form-control" id="Phone Number" placeholder="080xxx">
+                    </div>
+                    <div class="col-6">
+                        <label for="Message" class="form-label">Message<span
+                                class="text-muted">(Optional)</span></label>
+                        <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                    </div> <br>
+                    <button class="btn myBg">
+                        Submit
+                    </button>
+                </form>
+                <form class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <!-- <label for="firstName" class="form-label"></label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required> -->
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h3>Map Direction</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.56831419498!2d3.341396773731038!3d6.70026322108659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b95d1306296f9%3A0xf276588523184e5!2sOlambe%20Rd%2C%20Ifo%20112105%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1702059486208!5m2!1sen!2sng"
+                    width="500" height="455" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div><br>
+        <!-- End of Contact section  -->
+    </div> <br>
+    <!-- Footer section -->
+    <div class="container-fluid myAltbg">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn myBg" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; A B C ~ Stores, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- End of Footer section -->
+
+</body>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>

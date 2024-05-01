@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.myBg{
+    background-color: #E16036;
+}
+.myRedbg{
+    background-color: #E3170A;
+}
+.myAltbg{
+    background-color: #D6CBC1;
+}
+.myText{
+    color: #E16036;;
+}
+.myText:hover{
+    color: green;
+}
+.offwhite{
+    background-color: rgb(243, 215, 162);
+}
